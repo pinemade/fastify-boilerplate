@@ -1,4 +1,4 @@
-import { masterdb } from 'configs/masterdb';
+import { masterdb } from '@src/configs/masterdb';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import pg from 'postgres';
 import * as schema from './schema';
